@@ -7,12 +7,14 @@ import org.springframework.data.annotation.Id;
 import org.springframework.data.redis.core.RedisHash;
 
 import lombok.AllArgsConstructor;
+import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
 @RedisHash(value = "cart")
 @AllArgsConstructor
 @NoArgsConstructor
+@Builder
 @Data
 public class Cart {
     @Id
