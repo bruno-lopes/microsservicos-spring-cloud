@@ -9,7 +9,7 @@ import org.springframework.data.elasticsearch.config.AbstractElasticsearchConfig
 import org.springframework.data.elasticsearch.repository.config.EnableElasticsearchRepositories;
 
 @Configuration
-@EnableElasticsearchRepositories(basePackages = "one.digitalinnovation.experts.product-catalog.repository")
+@EnableElasticsearchRepositories(basePackages = "one.digitalinnovation.experts.productcatalog.repository")
 public class ElasticSearchConfig extends AbstractElasticsearchConfiguration {
 
     @Override
