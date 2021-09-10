@@ -1,0 +1,19 @@
+spring:
+  # Definir profile ativo
+  # profiles:
+  #   active: dev
+  application:
+    name: product-catalog
+  cloud:
+    config:
+      uri: http://localhost:8888
+      import-check.enabled: true
+  config:
+    import: configserver:http://localhost:8888
+
+# Habilitar log nas configurações
+# logging:
+#   level:
+#     ROOT: INFO
+#     org.springframework.cloud.config: DEBUG
+#     org.springframework.boot.context.config: TRACE

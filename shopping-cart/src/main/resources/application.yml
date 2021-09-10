@@ -1,0 +1,11 @@
+server:
+  port: 8898
+spring:
+  application:
+    name: shopping-cart
+  cloud:
+    config:
+      uri: http://localhost:8888
+      import-check.enabled: true
+  config:
+    import: optional:configserver:http://localhost:8888
