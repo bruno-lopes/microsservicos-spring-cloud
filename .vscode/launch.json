@@ -4,6 +4,7 @@
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
+    
         {
             "type": "java",
             "name": "Launch Current File",
@@ -12,14 +13,21 @@
         },
         {
             "type": "java",
-            "name": "Launch ProductCatalogApplication",
+            "name": "Launch Config Server",
+            "request": "launch",
+            "mainClass": "one.digitalinnovation.experts.configserver.ConfigServerApplication",
+            "projectName": "config-server"
+        },
+        {
+            "type": "java",
+            "name": "Launch Product Catalog",
             "request": "launch",
             "mainClass": "one.digitalinnovation.experts.productcatalog.ProductCatalogApplication",
             "projectName": "product-catalog"
         },
         {
             "type": "java",
-            "name": "Launch ShoppingCartApplication",
+            "name": "Launch Shopping Cart",
             "request": "launch",
             "mainClass": "one.digitalinnovation.experts.shoppingcart.ShoppingCartApplication",
             "projectName": "shopping-cart"
