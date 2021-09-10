@@ -4,10 +4,6 @@ spring:
   #   active: dev
   application:
     name: product-catalog
-  cloud:
-    config:
-      uri: http://localhost:8888
-      import-check.enabled: true
   config:
     import: configserver:http://localhost:8888
 
