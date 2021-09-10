@@ -16,6 +16,13 @@
             "request": "launch",
             "mainClass": "one.digitalinnovation.experts.productcatalog.ProductCatalogApplication",
             "projectName": "product-catalog"
+        },
+        {
+            "type": "java",
+            "name": "Launch ShoppingCartApplication",
+            "request": "launch",
+            "mainClass": "one.digitalinnovation.experts.shoppingcart.ShoppingCartApplication",
+            "projectName": "shopping-cart"
         }
     ]
 }
